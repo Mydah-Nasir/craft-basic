@@ -36,12 +36,6 @@ export const SettingsPanel = () => {
         { 
           selected.settings && React.createElement(selected.settings)
         }
-        <MaterialButton
-          variant="contained"
-          color="primary"
-        >
-          Delete
-        </MaterialButton>
         {
           selected.isDeletable ? (
             <MaterialButton
